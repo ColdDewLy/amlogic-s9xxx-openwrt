@@ -62,7 +62,7 @@ git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 # adguardhome
 git clone https://github.com/ColdDewLy/luci-app-adguardhome.git package/luci-app-adguardhome
 # luci-app-momo
-git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/luci-app-momo
+git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/OpenWrt-momo
 
 # ---------- MosDNS v5 编译准备 (开始) ----------
 

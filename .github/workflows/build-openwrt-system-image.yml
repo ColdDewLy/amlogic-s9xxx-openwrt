@@ -101,7 +101,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.12.65"
+        default: "6.6.y"
         type: choice
         options:
           - 5.10.y
@@ -109,7 +109,6 @@ on:
           - 6.1.y
           - 6.6.y
           - 6.12.y
-          - 6.12.65
           - 5.10.y_5.15.y
           - 5.15.y_6.1.y
           - 6.1.y_6.12.y
