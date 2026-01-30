@@ -56,13 +56,15 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 
 
 # Add Turbo ACC 网络加速
-curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+# curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 # Add luci-app-pushbot
-git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 # adguardhome
 git clone https://github.com/ColdDewLy/luci-app-adguardhome.git package/luci-app-adguardhome
 # luci-app-momo
 git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/OpenWrt-momo
+# luci-app-nikki
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/OpenWrt-nikki
 
 # ---------- MosDNS v5 编译准备 (开始) ----------
 
